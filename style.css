@@ -98,3 +98,128 @@ a {
     gap: 48px;
 }
 
+.content {
+    display: grid;
+    gap: 61px;
+    grid-template-columns: repeat(3, 310px);
+    justify-content: space-between;
+    padding-top: 140px;
+    padding-bottom: 125px;
+    align-items: baseline;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.item__big {
+    background: #FFFFFF;
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+    width: 370px;
+    height: 291px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.heading {
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.item__text {
+    font-family: 'Gilroy-Regular';
+    font-size: 15px;
+    margin-top: 17px;
+    margin-bottom: 25px;
+    line-height: 150%;
+
+    color: #666666;
+}
+
+.item__button {
+    font-size: 11px;
+    line-height: 150%;
+    color: #000000;
+}
+
+.item__img {
+    margin-bottom: 25px;
+}
+
+.secation {
+    padding-top: 92px;
+    padding-bottom: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secation__title {
+    font-size: 45px;
+    line-height: 53px;
+    margin-bottom: 19px;
+    color: #000000;
+}
+
+.secation__text {
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    font-family: 'Gilroy-Regular';
+    color: #666666;
+    max-width: 682px;
+}
+
+.services__info {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 370px);
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.services__item {
+    background: #FFFFFF;
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services__img {
+    margin-bottom: 25px;
+}
+
+.secation__title {
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.services__text {
+    margin-top: 22px;
+    margin-bottom: 39px;
+    font-family: 'Gilroy-Regular';
+    font-size: 15px;
+    line-height: 150%;
+    text-align: center;
+    max-width: 310px;
+    color: #AAAAAA;
+}
+
+.services__button {
+    font-size: 13px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 15px 36px 15px 46px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+    border-radius: 50px;
+    border: none;
+    margin-bottom: 50px;
+}
